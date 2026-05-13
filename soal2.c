@@ -27,7 +27,7 @@ void analyzeIslands(int** grid, int rows, int cols, int* outCount, int* outMaxAr
         }
     }
 
-    *outCount = count - 1;
+    *outCount = count;
     *outMaxArea = maxArea;
 }
 
