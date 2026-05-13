@@ -41,7 +41,6 @@ void analyzeIslands(int** grid, int rows, int cols, int* outCount, int* outMaxAr
             }
         }
     }
-
     *outCount = count;
     *outMaxArea = maxArea;
 }
@@ -69,7 +68,6 @@ int main() {
     printf("ISLANDS %d\n", count);
     printf("LARGEST %d\n", maxArea);
 
-    for (int i = 0; i < rows; i++) free(grid[i]);
     free(grid);
 
     return 0;
