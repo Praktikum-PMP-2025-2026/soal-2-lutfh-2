@@ -6,7 +6,7 @@ int dfs(int** grid, int r, int c, int rows, int cols) {
         return 0;
     }
     grid[r][c] = 0;
-    return 1 + dfs(grid, r + 1, c, rows, cols) + dfs(grid, r - 1, c, rows, cols) + dfs(grid, r, c + 1, rows, cols) + dfs(grid, r,  - 1, rows, cols);
+    return 1 + dfs(grid, r + 1, c, rows, cols) + dfs(grid, r - 1, c, rows, cols) + dfs(grid, r, c + 1, rows, cols) + dfs(grid, r, c - 1, rows, cols);  // ← was: r,  - 1
 }
 
 void analyzeIslands(int** grid, int rows, int cols, int* outCount, int* outMaxArea) {
