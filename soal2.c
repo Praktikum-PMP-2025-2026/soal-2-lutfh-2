@@ -1,3 +1,18 @@
+/*============================================================
+ *  EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul                : 05 - Foundation of Algorithm
+ *   Hari dan Tanggal     : Rabu 13 Mei 2026
+ *   Nama (NIM)           : Lutfi Hasan (13224091)
+ *   Nama File            : soal2.c
+ *   Deskripsi            : Membaca Banyak Pulau dan Pulau terbesar
+ *   **/
+
+// https://www.geeksforgeeks.org/dsa/find-length-largest-region-boolean-matrix/ 
+// https://leetcode.com/problems/max-area-of-island/solutions/127762/max-area-of-island-by-leetcode-mgcs/*
+// https://neetcode.io/solutions/max-area-of-island
+// https://medium.com/@gyaluru/day-31-100-max-area-of-island-1e1c3335b211
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
